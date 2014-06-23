@@ -10,10 +10,10 @@ In brief, the problem stats the following
 Write a function factorizar:: Integer -> [(Integer,Integer)] that receives as a parameter an integer n >= 1 that returns
 a list representing the factorization of n. Formaly, the list has to be structured like [(p1; k1); (p2; k2); ... ; (pm; km)] such that
 
-1. p1; p2; . . . ; pm y k1; k2; . . . ; km are positive integers.
-2. p1; p2; . . . ; pm are primes.
-3. p1 < p2 < . . . < pm.
-4. p1<sup>k1</sup> x p2<sup>k2</sup> x . . . x pm<sup>km</sup> = n
+1. p<sub>1</sub>, p<sub>2</sub>, . . . , p<sub>m</sub> y k<sub>1</sub>, k<sub>2</sub>, . . . ,k<sub>m</sub> are positive integers.
+2. p<sub>1</sub>, p<sub>2</sub>, . . . , p<sub>m</sub> are primes.
+3. p<sub>1</sub> < p<sub>2</sub> < . . . < p<sub>m</sub>.
+4. p<sub>1</sub><sup>k1</sup> x p<sub>2</sub><sup>k2</sup> x . . . x p<sub>m</sub><sup>km</sup> = n
 
 For the value 1, the answer is an empty list, because it has no prime divisors-
 
