@@ -7,7 +7,7 @@ This is a problem proposed for undergraduate students of Mathematical Sciences a
 The problem has to be solved in the haskell programming language. Haskell is a purely funcional programming language, that is specially suitable for mathematical purposes. <br>
 
 <b>Exercise</b>
-Write a function factorizar:: Integer -> [(Integer,Integer)] that receives as a parameter an integer n >= 1 and returns
+Write a function factorizar :: Integer -> [(Integer,Integer)] that receives as a parameter an integer n >= 1 and returns
 a list representing the factorization of n. Formaly, the list has to be structured like [(p1; k1); (p2; k2); ... ; (pm; km)] such that
 
 1. p<sub>1</sub>, p<sub>2</sub>, . . . , p<sub>m</sub> and k<sub>1</sub>, k<sub>2</sub>, . . . ,k<sub>m</sub> are positive integers.
