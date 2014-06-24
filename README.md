@@ -2,8 +2,10 @@
 
 I will collect the solution of different mathematical problems addressed in a variety of programming languages. 
 
+<HR>
+
 <h4>Factorization</h4>
-This is a problem proposed for undergraduate students of Mathematical Sciences at the University of Buenos Aires (FCEyN UBA). 
+This is a problem proposed for undergraduate students of Mathematical Sciences at the University of Buenos Aires (FCEyN, UBA). 
 The problem has to be solved in the haskell programming language. Haskell is a purely funcional programming language, that is specially suitable for mathematical purposes. <br>
 
 <b>Exercise</b>
@@ -53,3 +55,16 @@ Ejemples of the factorizar function
   <td>*** Exception: ...</td>
 </tr>
 </table>
+
+<h4>Solution</h4>The Riemann Hypothesis,
+
+While <b>Riemann Hypothesis</b> remains unsolved, there is no easy way in which we can affirm that a number is prime.
+However, there are some recursive algorithms that let us deal with this situation. I have choosen the one called <b>The sieve of Eratosthenes </b>.<br>
+
+<i>References</i>
+<ul>
+<li><a href=http://www.claymath.org/sites/default/files/ezeta.pdf>Bernhard Riemann - On the Number of Prime Numbers less than
+a Given Quantity</a> 
+<li><a href=http://en.wikipedia.org/wiki/Sieve_of_Eratosthenes>Sieve of Eratosthenes</a> 
+</ul>
+
