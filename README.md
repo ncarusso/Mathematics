@@ -2,13 +2,15 @@
 
 I will collect the solution of different mathematical problems addressed in a variety of programming languages. 
 
+<HR>
+
 <h4>Factorization</h4>
-This is a problem proposed for undergraduate students of Mathematical Sciences at the University of Buenos Aires (FCEyN UBA). 
+This is a problem proposed for undergraduate students of Mathematical Sciences at the University of Buenos Aires (FCEyN, UBA). 
 The problem has to be solved in the haskell programming language. Haskell is a purely funcional programming language, that is specially suitable for mathematical purposes. <br>
 
 <b>Exercise</b>
 Write a function factorizar :: Integer -> [(Integer,Integer)] that receives as a parameter an integer n >= 1 and returns
-a list representing the factorization of n. Formaly, the list has to be structured like [(p1; k1); (p2; k2); ... ; (pm; km)] such that
+a list representing the factorization of n. Formally, the list has to be structured like [(p1; k1); (p2; k2); ... ; (pm; km)] such that
 
 1. p<sub>1</sub>, p<sub>2</sub>, . . . , p<sub>m</sub> and k<sub>1</sub>, k<sub>2</sub>, . . . ,k<sub>m</sub> are positive integers.
 2. p<sub>1</sub>, p<sub>2</sub>, . . . , p<sub>m</sub> are primes.
@@ -53,3 +55,15 @@ Ejemples of the factorizar function
   <td>*** Exception: ...</td>
 </tr>
 </table>
+
+<h4>Solution</h4>
+While the <b>Riemann Hypothesis</b> remains unsolved, there is no easy way in which we can affirm that a number is prime.
+However, there are some recursive algorithms that let us deal with this situation. I have chosen the one called <b>The sieve of Eratosthenes.</b><br>
+
+<i>References</i>
+<ul>
+<li><a href=http://www.claymath.org/sites/default/files/ezeta.pdf>Bernhard Riemann - On the Number of Prime Numbers less than
+a Given Quantity</a> 
+<li><a href=http://en.wikipedia.org/wiki/Sieve_of_Eratosthenes>Sieve of Eratosthenes</a> 
+</ul>
+
