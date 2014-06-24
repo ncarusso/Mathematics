@@ -56,8 +56,7 @@ Ejemples of the factorizar function
 </tr>
 </table>
 
-<h4>Solution</h4>The Riemann Hypothesis,
-
+<h4>Solution</h4>
 While <b>Riemann Hypothesis</b> remains unsolved, there is no easy way in which we can affirm that a number is prime.
 However, there are some recursive algorithms that let us deal with this situation. I have choosen the one called <b>The sieve of Eratosthenes </b>.<br>
 
