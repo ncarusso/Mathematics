@@ -19,7 +19,7 @@ a list representing the factorization of n. Formally, the list has to be structu
 
 For the value 1, the answer is an empty list, because it has no prime divisors.
 
-Ejemples of the factorizar function
+Examples of the factorizar function
 
 <table>
 <tr>
